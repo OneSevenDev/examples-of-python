@@ -1,4 +1,4 @@
-# Lo aprendido del libro: **Learning Python design patterns *Segunda Edición*** proporcionado por [Packpub](https://www.packtpub.com)
+# Lo aprendido del libro: **Learning Python design patterns *Segunda Edición*** proporcionado por [Packtpub](https://www.packtpub.com)
 
 ## Capitulo 1
 

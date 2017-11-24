@@ -1,12 +1,13 @@
 class MyInt(type):
-    def __call__(cls, *args, **kwrgs):
+    def __call__(cls, *args, **kwds):
         print("***** Here's My int *****", args)
         print("Now do whatever you want with these objects..")
-        return type.__class__(cls, *args, **kwrgs)
+        return type.__call__(cls, *args, **kwds)
 
 class int(metaclass=MyInt):
-    def __init__(self, x, y):
+    def __init__(self, x, y,z):
         self.x = x
         self.y = y
+        self.z = z
     
-i = int(4,5)
+i = int(4,5,6)

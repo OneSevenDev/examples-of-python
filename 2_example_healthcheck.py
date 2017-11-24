@@ -13,7 +13,7 @@ class HealthCheck:
         self._server.append("Server 4")
     def changeServer(self):
         self._server.pop()
-        self._server.append("Servver 5")
+        self._server.append("Server 5")
 
 hc1 = HealthCheck()
 hc2 = HealthCheck()
